@@ -232,7 +232,7 @@
   }
 /* FEATURES */
 .features {
-    background-color: #012f34;
+    background-color: var(--secondary-sacramento-state-green-color);
     background-image: url('../images/features-bottom.svg');
     padding: 14rem 0;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@
   }
   
   .features__divider {
-    background-color: #f67e7e;
+    background-color: var(--primary-light-color);
     margin-bottom: 5.4rem;
   }
   
@@ -269,7 +269,7 @@
     margin-bottom: 3.2rem;
   }
   .features__item-title {
-    color: #f67e7e;
+    color: var(--primary-light-color);
     font-size: 1.8rem;
     margin-bottom: 1.6rem;
   }
@@ -294,12 +294,12 @@
 }
 .results__heading {
     text-align: center;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: var(--h2-size);
+    line-height: var(--h2-line-height);
     margin-bottom: 5.6rem;
 }
 .text-secondary {
-    color: #79C8C7;
+    color: var(--secondary-rapture-blue-color);
 }
 .results__wrapper {
     display: flex;
@@ -325,7 +325,7 @@
 }
 .results__wrapper-title {
     margin-bottom: 2px;
-    color: #79C8C7;
+    color: var(--secondary-rapture-blue-color);
 }
 .results__wrapper-remax {
     width: 100%;
@@ -337,14 +337,13 @@
 /* STARTED */
 .started {
     padding: 7.6rem 0;
-    
     background: url('../images/footer.svg');
     background-repeat: no-repeat;
     background-position: left  bottom;
 }
 .drop
 {
-    background-color: #F67E7E;
+    background-color: var(--primary-light-color);
 }
 .started-container {
     display: flex;
@@ -353,21 +352,21 @@
     gap: 26rem;
 }
 .started__title {
-    color: #012F34;
-    font-size: 4.8rem;
-    line-height: 48px;
+    color: var(--secondary-sacramento-state-green-color);
+    font-size: var(--h2-size);
+    line-height: var(--h2-line-height);
 }
 .started-btn {
-    color: #012F34;
-    border-color: #012F34;
+    color: var(--secondary-sacramento-state-green-color);
+    border-color: var(--secondary-sacramento-state-green-color);
 }
 .dark-btn:hover {
-    background: #012F34;
-    color: #FFFFFF;            
+    background: var(--secondary-sacramento-state-green-color);
+    color: var(--primary-white-color);            
 }
 .dark-btn:active {
-    background: #fff;
-    color:  #012F34;
+    background: var(--primary-white-color);
+    color:  var(--secondary-sacramento-state-green-color);
     opacity: 0.5;            
 }
 /* ABOUT* PAGE */
@@ -378,7 +377,7 @@
   background-position: right bottom;
   padding-top: 5.5rem;   
   padding-bottom: 12rem;
-  background-color: #014E56;
+  background-color: var(--primary-midnight-color);
 }
 .about-container {
   display: flex;
@@ -390,24 +389,24 @@
 }
 .about__title {
   font-family: 'Livvic', Arial, Helvetica, sans-serif;
-  color: #fff;
-  font-size: 6.4rem;
+  color: var(--primary-white-color);
+  font-size: var(--h1-large-size);
   font-weight: 700;
-  line-height: 100px;
+  line-height: var(--h1-large-line-height);
 }
 .about__info {
   width: 730px;
 }
 .about__divider {
-  background: #F67E7E;
+  background: var(--primary-light-color);
   margin-bottom: 40px;
 }
 .about__description {
-  color: #fff;
+  color: var(--primary-white-color);
 }
 /* MEET */
 .meet {
-  background-color: #004047;
+  background-color: var(--secondary-deep-jungle-green-color);
   padding: 14rem 0; 
   background-image: url('../images/meet-bg-left.svg'),
   url('../images/meet-bg-bottom.svg');
@@ -416,8 +415,8 @@
 }
 .meet__title {
   font-weight: 700;
-  font-size: 4.8rem;
-  line-height: 4.8rem;
+  font-size: var(--h2-size);
+  line-height: var(--h2-line-height);
   text-align: center;
   margin-bottom: 6.4rem;
 }
@@ -430,7 +429,7 @@
   padding: 3.2rem 2.4rem 5.6rem;
   position: relative;
   width: 35rem;
-  background-color: #012F34;
+  background-color: var(--secondary-sacramento-state-green-color);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -440,14 +439,14 @@
    margin-bottom: 1.6rem;
 }
 .meet__wrapper-title {
-  color: #79C8C7;
+  color: var(--secondary-rapture-blue-color);
   font-weight: 700;
 }
 .meet__wrapper-heading {
   font-style: italic;
-  font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 25px;
+  font-weight: var(--main-font-weight);
+  font-size: var(--main-font-size-2);
+  line-height: var(--main-line-height-1)
 }
 .meet__wrapper-icon {
   position: absolute;
@@ -456,7 +455,7 @@
 }
 .meet__wrapper_title {
   font-weight: 700;
-  color: #79C8C7;
+  color: var(--secondary-rapture-blue-color);
   margin-bottom: 8px;
 }
 .meet__description {
@@ -470,7 +469,7 @@
 }
 /* SOME */
 .some {
-  background: #012F34;
+  background: var(--secondary-sacramento-state-green-color);
   padding: 14rem 0;
   background-image: url('../images/our\ clients.svg');
   background-repeat: no-repeat;
