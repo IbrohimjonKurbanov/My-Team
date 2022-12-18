@@ -583,6 +583,14 @@ input
   font-weight: 600;
   font-size: 1.8rem;
   padding: 11px 32px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+.form-btn:hover
+{
+   background: transparent;
+   color: #fff;
+   border-color: #fff;
 }
 .contact__item-description
 {
